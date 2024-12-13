@@ -1,0 +1,65 @@
+/* Chatbot.css - Styles for Movie Plot Generator */
+
+.chatbot-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chatbot-description {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chatbot-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.chatbot-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+}
+
+.chatbot-button:hover {
+    background-color: #0056b3;
+}
+
+.chatbot-error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.chatbot-output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.chatbot-loading {
+    color: #007BFF;
+    text-align: center;
+    font-style: italic;
+}
